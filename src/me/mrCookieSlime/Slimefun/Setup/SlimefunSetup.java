@@ -4990,7 +4990,10 @@ public class SlimefunSetup {
 
 			@Override
 			public void tick(Block b, SlimefunItem item, Config data) {
-				CargoNet.tick(b);
+				/*
+				 * Temp disabled for testing purposes
+				 */
+				//CargoNet.tick(b);
 			}
 
 			@Override
