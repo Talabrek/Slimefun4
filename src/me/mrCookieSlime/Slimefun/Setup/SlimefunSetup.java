@@ -4992,6 +4992,8 @@ public class SlimefunSetup {
 			public void tick(Block b, SlimefunItem item, Config data) {
 				/*
 				 * Temp disabled for testing purposes
+				 * working super fine, for now until
+				 * optimization
 				 */
 				//CargoNet.tick(b);
 			}
