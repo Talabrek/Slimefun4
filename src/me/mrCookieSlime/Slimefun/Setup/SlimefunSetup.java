@@ -161,7 +161,7 @@ public class SlimefunSetup {
 	}
 	
 	public static final String getMaxAndroidsReachedMessage() {
-		return SlimefunStartup.config.getString("URID.max-androids-reached-msg");
+		return ChatColor.translateAlternateColorCodes('&', SlimefunStartup.config.getString("URID.max-androids-reached-msg"));
 	}
 	
 	public static void setupItems() throws Exception {
