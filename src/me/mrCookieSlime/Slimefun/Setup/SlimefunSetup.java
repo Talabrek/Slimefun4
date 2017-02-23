@@ -4160,17 +4160,17 @@ public class SlimefunSetup {
 			public void uniqueTick() {
 			}
 			
-			private volatile long lastTickTime = -1L;//i know it's a task, just trying to find where they actually check the config value yeah, a good way to start is to go to the config var and rename it and see what breaks
+			//private volatile long lastTickTime = -1L;//i know it's a task, just trying to find where they actually check the config value yeah, a good way to start is to go to the config var and rename it and see what breaks
 			
 			@Override
 			public void tick(Block b, SlimefunItem item, Config data) {//FIXME cargo net tick slow!
 				//Config.getValueOf(custom-tick-delay-nodes)
-				int customTickerDelayNodes = getCustomTickerDelayNodes();
+				//int customTickerDelayNodes = getCustomTickerDelayNodes();
 				//that resolves to 50 ms, so one tick is 50 ms total time
-				final int ticksPerSecond = Double.valueOf((1.0D / 20.0D) * 1000.0D).intValue();//lol one sec lemme get this value xD I always get the math wwrong
-				if(customTickerDelayNodes > 100) {
-					CargoNet.tick(b);
-				} //yeah i'll let you fix it in the clone instead, node will stay disabled you sure? ok 
+				//final int ticksPerSecond = Double.valueOf((1.0D / 20.0D) * 1000.0D).intValue();//lol one sec lemme get this value xD I always get the math wwrong
+				//if(customTickerDelayNodes > 100) {
+				//	CargoNet.tick(b);
+				//} //yeah i'll let you fix it in the clone instead, node will stay disabled you sure? ok 
 			}
 			
 			@Override
