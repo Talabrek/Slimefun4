@@ -15,6 +15,9 @@ URID:
   info-delay: 3000
   custom-ticker-delay: 12
   enable-tickers: true
+  custom-ticker-delay-nodes: 120
+  allowed-androids-per-player: 15
+  max-androids-reached-msg: "You have reached your android limit of 15! You currently have [NUMANDROIDS] placed."
 items:
   talismans: true
   coolers: true

@@ -17,7 +17,7 @@ public class AndroidObject {
 	}
 	
 	public Block getBlock() {
-		return b;
+		return this.b;
 	}
-
+	
 }
