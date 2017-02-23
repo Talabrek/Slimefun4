@@ -229,13 +229,7 @@ public abstract class ProgrammableAndroid extends SlimefunItem {
 							}
 						});
 						return;
-						//oh wow it's working perfecrtly! i have 16 yeah can't place anymore now config, wanna do while i'm gone?
-						//friend is here so gtg baiiiiii ty :DD
-						//it's workig, but 1 thing left, the skull placed doesn't get deleted yeah no it's running
-						//yeah i get the real android, but the "CoreSkull still placed on the world
 					}
-					//so here a friend is coming, i'll have to go :(
-					//blockstorage.getAllOwners.getOwner(player).size it example
 				}
 				BlockStorage.addBlockInfo(b, "owner", p.getUniqueId().toString());
 				BlockStorage.addBlockInfo(b, "script", "START-TURN_LEFT-REPEAT");
